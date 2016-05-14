@@ -10,11 +10,17 @@
       "email": "gregoriohc@gmail.com"
     }
   ],
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/ShineOnCom/php-trello-api"
+      }
+  ],
   "require": {
     "php": ">=5.4.0",
     "illuminate/config": "~5",
     "illuminate/support": "~5",
-    "cdaguerre/php-trello-api": "@dev"
+    "cdaguerre/php-trello-api": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0"
